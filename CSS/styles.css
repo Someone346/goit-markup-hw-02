@@ -2,5 +2,65 @@
     --primary-color: #212121;
     --secondary-color: #2F303A;
     --accent-color: #2196F3;
-    --main-font: font-family: 'Roboto', sans-serif;
+    --main-font: 'Roboto', sans-serif;
+    --logo-font: 'Raleway', sans-serif;
+    --title-size: 36px;
+    --main-text-size: 14px;
+    --portfolio-title-size: 18px;
+    --portfolio-text-size: 16px;
+}
+
+
+/* main page styles */
+
+.header {
+    width: 1600px;
+    background-color: #FFFFFF;
+    padding: 24px 215px 25px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 93px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 26px;
+    font-family: var(--logo-font);
+}
+
+.logo-word {
+    color: var(--accent-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.navigation {
+    font-family: var(--main-font);
+    font-size: var(--main-text-size);
+    font-weight: 500;
+}
+
+.navigation-list {
+    display: flex;
+}
+
+.navigation-item {
+    margin-right: 50px;
+}
+
+.navigation-link {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.email-link {
+    margin-left: 331px;
+    margin-right: 50px;
+}
+
+.phone-link {
+
 }
