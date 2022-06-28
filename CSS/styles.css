@@ -14,7 +14,7 @@
 /* main page styles */
 
 .header {
-    width: 1600px;
+    height: 80px;
     background-color: #FFFFFF;
     padding: 24px 215px 25px;
     display: flex;
@@ -63,4 +63,14 @@
 
 .phone-link {
 
+}
+
+.hero {
+    background-color: var(--secondary-color);
+    height: 600px;
+}
+
+.hero-title {
+    font-style: Roboto;
+    font-size: 44px;
 }
